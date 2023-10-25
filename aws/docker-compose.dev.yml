@@ -1,0 +1,5 @@
+services:
+  ec2_metadata_mock:
+    image: public.ecr.aws/aws-ec2/amazon-ec2-metadata-mock:v1.11.2
+    ports:
+      - 1338:1338
